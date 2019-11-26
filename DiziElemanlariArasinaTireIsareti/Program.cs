@@ -10,7 +10,7 @@ namespace DiziElemanlariArasinaTireIsareti
     {
         static void Main(string[] args)
         {
-            for (char i = 'A'; i <='Z'; i++)
+            for (char i = 'A'; i <='Z'; i++) //satır sonuna geldiğinde i=Z olduğunda - işareti eklemez
             {
                 Write(i+(i<'Z'?"-":""));
             }
