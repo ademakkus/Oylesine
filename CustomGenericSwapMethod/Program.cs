@@ -25,10 +25,12 @@ namespace CustomGenericSwapMethod
             var str1 = "AKKUŞ";
             var str2 = "Adem";
             ForegroundColor = DarkGreen;
-            WriteLine($"{str1} and {str2} before Swap");
+            WriteLine($"{str1} and {str2} before Swap"); //C# 6.0 syntax
+             //Console.WriteLine("{0} and {1} before Swap",str1,str2);
             Swap<string>(ref str1,ref  str2);
             ForegroundColor = DarkRed;
-            WriteLine($"{str1} and {str2} AFTER Swap");
+            WriteLine($"{str1} and {str2} AFTER Swap"); //C# 6.0 syntax
+             //Console.WriteLine("{0} and {1} before Swap",dbl1,dbl2);
             double db1 = 123;
             double dbl2 = 987;
             ForegroundColor = DarkGreen;
