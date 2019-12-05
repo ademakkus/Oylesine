@@ -8,6 +8,7 @@ namespace DiziElemanlariArasinaTireIsareti
 {
     class Program
     {
+      
         static void Main(string[] args)
         {
             for (char i = 'A'; i <='Z'; i++) //satır sonuna geldiğinde i=Z olduğunda - işareti eklemez
@@ -15,6 +16,9 @@ namespace DiziElemanlariArasinaTireIsareti
                 Write(i+(i<'Z'?"-":""));
             }
             WriteLine();
+
+           
+            }
             ReadKey();
         }
     }

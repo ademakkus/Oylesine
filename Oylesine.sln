@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.902
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29521.150
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiziElemanlariArasinaTireIsareti", "DiziElemanlariArasinaTireIsareti\DiziElemanlariArasinaTireIsareti.csproj", "{00C13B88-11C6-4B43-A489-50626EDC269E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomGenericSwapMethod", "CustomGenericSwapMethod\CustomGenericSwapMethod.csproj", "{9F3B2531-2765-486D-A5F9-252F504AA603}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormattingNumericalData", "FormattingNumericalData\FormattingNumericalData.csproj", "{1E63DC06-2701-4432-93AB-E14B3B7ABF2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9F3B2531-2765-486D-A5F9-252F504AA603}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F3B2531-2765-486D-A5F9-252F504AA603}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F3B2531-2765-486D-A5F9-252F504AA603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E63DC06-2701-4432-93AB-E14B3B7ABF2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E63DC06-2701-4432-93AB-E14B3B7ABF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E63DC06-2701-4432-93AB-E14B3B7ABF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E63DC06-2701-4432-93AB-E14B3B7ABF2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
