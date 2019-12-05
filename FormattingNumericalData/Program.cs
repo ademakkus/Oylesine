@@ -19,8 +19,8 @@ namespace FormattingNumericalData
       WriteLine("n format :{0:n}", number);
       WriteLine("E format :{0:E}", number);
       WriteLine("e format :{0:e}", number);
-      WriteLine("X format :{0:X}", number);
-      WriteLine("x format :{0:x}", number);
+      WriteLine("X format :{0:X}", number);// convert to hexa decimal format
+      WriteLine("x format :{0:x}", number);// convert to hexa decimal format
       ReadKey();
     }
   }
