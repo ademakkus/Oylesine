@@ -21,6 +21,13 @@ namespace FormattingNumericalData
       WriteLine("e format :{0:e}", number);
       WriteLine("X format :{0:X}", number);// convert to hexa decimal format
       WriteLine("x format :{0:x}", number);// convert to hexa decimal format
+      WriteLine("int min {0} and max {1} value", int.MaxValue, int.MaxValue);
+      WriteLine("double min {0} and max {1} value", double.MaxValue, double.MaxValue);
+      WriteLine("double.Epsion {0} ", double.Epsilon);
+      WriteLine("double.PositiveInfinity : {0}", double.PositiveInfinity);
+      WriteLine("double.NegativeInfinity : {0}", double.NegativeInfinity);
+      WriteLine("bool.TrueString : {0}", bool.TrueString);
+      WriteLine("bool.FalseString : {0}", bool.FalseString);
       ReadKey();
     }
   }
