@@ -43,6 +43,7 @@ namespace CharFunctionality
 
       ConsoleKeyInfo consoleKeyInfo = ReadKey();
       WriteLine(consoleKeyInfo.KeyChar);
+
       ConsoleKeyInfo consoleKeyInfo2 = ReadKey();
     }
   }
