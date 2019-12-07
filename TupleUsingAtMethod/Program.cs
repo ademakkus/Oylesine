@@ -18,6 +18,7 @@ namespace TupleUsingAtMethod
       WriteLine($"Your surname : {samples.surname}");
       ForegroundColor = DarkBlue;
       WriteLine($"Your salary : {samples.salary}");
+      WriteLine($"Maried: {samples.married}");
       ReadKey();
     }
     static(string name,string surname,int salary,bool married) FillForm()
