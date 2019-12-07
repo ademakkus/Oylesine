@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tupples", "Tupples\Tupples.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuples2", "Tuples2\Tuples2.csproj", "{1896D4A8-7AD1-45D9-A1B5-E2CDB39412A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TupleUsingAtMethod", "TupleUsingAtMethod\TupleUsingAtMethod.csproj", "{916D8964-EE7B-4EE3-B93B-82F2304B6767}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{1896D4A8-7AD1-45D9-A1B5-E2CDB39412A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1896D4A8-7AD1-45D9-A1B5-E2CDB39412A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1896D4A8-7AD1-45D9-A1B5-E2CDB39412A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{916D8964-EE7B-4EE3-B93B-82F2304B6767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916D8964-EE7B-4EE3-B93B-82F2304B6767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916D8964-EE7B-4EE3-B93B-82F2304B6767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916D8964-EE7B-4EE3-B93B-82F2304B6767}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
